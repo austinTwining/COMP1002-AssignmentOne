@@ -1,0 +1,124 @@
+/*Center the netflix logo*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+header > p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+/*center the attention words and set the flex direction*/
+.words{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5px;
+    padding-top: 65px;
+}
+/*set the font of the attention words and adjust the letter spacing*/
+.words > p{
+    font-family: 'Times New Roman', serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+/*shared styling for the title section*/
+.titleSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', serif;
+    padding-top: 0px;
+}
+/*styling for the top title subheading*/
+.titleSection > p{
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-bottom: 0px;
+    margin: 0px 10px;
+}
+/*styling for the title*/
+.titleSection > div{
+    flex-direction: row;
+    letter-spacing: 10px;
+    padding-top: 0px;
+}
+.titleSection > div > span > a{
+    text-decoration: none;
+    color: black;
+}
+.titleSection > div > .titleBig{
+    font-size: 60px;
+}
+.titleSection > div > .titleSmall{
+    font-size: 38px;
+}
+/*styling for the fineprint section*/
+.finePrint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*styling the fineprint paragraph*/
+.finePrint > p{
+    text-align: center;
+    font-family: 'Six Caps', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 18px;
+    color: darkgray;
+    max-width: 700px;
+    margin-bottom: 1px;
+}
+/*styling the fineprint url*/
+.finePrint > a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 1px;
+    color: darkgray;
+    max-width: 20%;
+}
+.awardSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+/*adding the background to the award section divs*/
+.awardSection > div{
+    text-align: center;
+    background-image: url("../img/award-decoration.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*styling the award texts*/
+.awardSection > div > p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 0px 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*adjust font size of the award texts*/
+.awardSection > div > .awardTextSmall{
+    font-size: 8px;
+}
+.awardSection > div > awardTextLarge{
+    font-size: 15px;
+}
+/*center the footer image*/
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
